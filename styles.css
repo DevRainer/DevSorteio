@@ -1,0 +1,100 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+/* Logo */
+.logo-container {
+  width: 90%;
+  max-width: 583px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10vh auto 4vh auto;
+}
+
+.logo-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Texto */
+p {
+  color: white;
+  font-size: 2.125rem; /* 34px */
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+/* Inputs e Botões */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 0 1em;
+}
+
+.min,
+.max,
+.sortear {
+  width: 100px;
+  height: 50px;
+  padding: 0 12px;
+  border-radius: 14px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  color: white;
+}
+
+.min,
+.max {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.sortear {
+  background: #AEC346;
+  font-size: 1.25rem;
+}
+
+/* Resultado */
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Responsivo */
+@media screen and (max-width: 600px) {
+  .min,
+  .max,
+  .sortear {
+    width: 90%;
+    margin-top: 12px;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo-img {
+    width: 90%;
+  }
+}
