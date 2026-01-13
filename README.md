@@ -1,13 +1,13 @@
 # 🎲 DevSorteio
 
 Uma aplicação web simples para realizar **sorteios/raffles**.  
-Este README é um modelo otimizado — personalize conforme o comportamento real do seu projeto.
+
 
 ---
 
 ## 📺 Demo
 👉 [DevSorteio Demo](https://DevRainer.github.io/DevSorteio)  
-*(adicione aqui o link do GitHub Pages ou outro ambiente de deploy)*
+
 
 ---
 
