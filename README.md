@@ -1,33 +1,36 @@
-# 🎲 DevSorteio
+### 🎲 DevSorteio
 
-Uma aplicação web simples para realizar **sorteios/raffles**.  
+A lightweight web application designed to perform random draws and raffles with a clean and intuitive interface.
 
+###📺 Demo
 
----
+👉 Live Demo
 
-## 📺 Demo
-👉 [DevSorteio Demo](https://DevRainer.github.io/DevSorteio)  
+### 📌 Status
 
+Status: Under development ⚠️
 
----
+Core Technologies: HTML5, CSS3, JavaScript (Vanilla)
 
-## 📌 Status
-- **Status:** Em desenvolvimento ⚠️  
-- **Tecnologias principais:** HTML, CSS, JavaScript  
+### ✨ Features
 
----
+➕ Manual Entry: Add participants one by one easily.
 
-## ✨ Funcionalidades
-- ➕ Adicionar participantes manualmente  
-- 📂 Importar participantes via CSV (opcional)  
-- 🎲 Realizar sorteio aleatório  
-- 🎞️ Animação visual do sorteio  
-- 🎨 Personalização de temas/estilos  
+📂 CSV Import: Batch upload participants via CSV files (optional/planned).
 
----
+🎲 Random Picker: Fair and unbiased random selection algorithm.
 
-## ⚙️ Instalação / Como executar
+🎞️ Visual Animation: Engaging animation during the drawing process.
 
-### 🔹 Abrir localmente
-```bash
+🎨 Theming: Custom themes and styles for a personalized experience.
+
+### ⚙️ Installation / How to Run
+🔹 Run Locally
+
+Clone the repository:
+
+Bash
+
 git clone https://github.com/DevRainer/DevSorteio.git
+
+Open the index.html file in your preferred web browser.
